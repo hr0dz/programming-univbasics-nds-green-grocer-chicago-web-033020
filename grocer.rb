@@ -1,10 +1,21 @@
 def find_item_by_name_in_collection(name, collection)
+  #(string, array)
+  #returns nil of no match found
+  #returns mathing hash if match is found
+  
+  
   # Implement me first!
   #
   # Consult README for inputs and outputs
 end
 
 def consolidate_cart(cart)
+ #(array)
+ #array is a collection of item
+ #returns a new array
+ #every item needs :count attribute
+ #increase :count in new array w/ multiple same item
+ 
   # Consult README for inputs and outputs
   #
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
